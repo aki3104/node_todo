@@ -6,3 +6,18 @@ body {
 a {
   color: #00B7FF;
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .link {
+  display: flex;
+}
+
+.header .link div {
+  display: flex;
+  align-items: center;
+  margin: auto 16px;
+}
